@@ -5,30 +5,7 @@
 
 */
 
-// Starter Code  - some code cut due to copyright 
-public class Employee {
-	
-
-	public double getSalary() {
-		return salary;             
-	}
-}
-public class Lawyer extends Employee {
-	
-	public String getVacationForm() {
-		 return lawyerVacationForm;
-	}
-
-	private String lawyerVacationForm = "pink";
-	
-	public final void setVacationForm(String form) {
-		lawyerVacationForm = form;
-	} 
-    public int getVacationDays() {
-		return super.getVacationDays() + 5;
-	}
-
-}
+// Starter Code  - cut due to copyright, my code extends a Lawyer class provided by Building Java Programs 5th Edition.
 
 // - My Code - 
 public class HarvardLawyer extends Lawyer{    
